@@ -17,3 +17,7 @@
 }
 
 %end
+
+%ctor {
+	dlopen("/Library/MobileSubstrate/DynamicLibraries/Roundification.dylib", RTLD_NOW);
+}
