@@ -1,0 +1,10 @@
+Package: com.brycedev.sleeksheets
+Name: SleekSheets
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Make action sheets great again. Removes the rounded corners, separators, cancel button, and flushes the sheet against the screen.
+Maintainer: Bryce Jackson
+Author: Bryce Jackson
+Section: Tweaks
+Version: 0.0.1-1+debug
+Installed-Size: 120
