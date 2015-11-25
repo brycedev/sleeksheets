@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key><string>PSGroupCell</string>
+			<key>label</key><string>Options</string>
+            <key>footerText</key><string></string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.sleeksheets</string>
+			<key>key</key><string>squareCorners</string>
+			<key>label</key><string>Square Corners</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.sleeksheets</string>
+			<key>key</key><string>flushEdges</string>
+			<key>label</key><string>Flush Edges</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.sleeksheets</string>
+			<key>key</key><string>hideActionSeparators</string>
+			<key>label</key><string>Hide Separators</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key><string>PSSwitchCell</string>
+			<key>default</key><true/>
+			<key>defaults</key><string>com.brycedev.sleeksheets</string>
+			<key>key</key><string>hideCancelAction</string>
+			<key>label</key><string>Hide Cancel Button</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Configuration</string>
+</dict>
+</plist>
