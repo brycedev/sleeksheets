@@ -2,8 +2,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = SleekSheets
 SleekSheets_FILES = Tweak.xm
-SleekSheets_FRAMEWORKS = Foundation QuartzCore UIKit
-SleekSheets_EXTRA_FRAMEWORKS = Cephei
+SleekSheets_FRAMEWORKS = CoreFoundation Foundation UIKit
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 

@@ -15,7 +15,7 @@
 			<key>defaults</key><string>com.brycedev.sleeksheets</string>
 			<key>key</key><string>squareCorners</string>
 			<key>label</key><string>Square Corners</string>
-			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets.prefschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key><string>PSSwitchCell</string>
@@ -23,7 +23,7 @@
 			<key>defaults</key><string>com.brycedev.sleeksheets</string>
 			<key>key</key><string>flushEdges</string>
 			<key>label</key><string>Flush Edges</string>
-			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets.prefschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key><string>PSSwitchCell</string>
@@ -31,7 +31,7 @@
 			<key>defaults</key><string>com.brycedev.sleeksheets</string>
 			<key>key</key><string>hideActionSeparators</string>
 			<key>label</key><string>Hide Separators</string>
-			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets.prefschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key><string>PSSwitchCell</string>
@@ -39,7 +39,7 @@
 			<key>defaults</key><string>com.brycedev.sleeksheets</string>
 			<key>key</key><string>hideCancelAction</string>
 			<key>label</key><string>Hide Cancel Button</string>
-			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets.prefschanged</string>
 		</dict>
 	</array>
 	<key>title</key>

@@ -15,7 +15,7 @@
 			<key>defaults</key><string>com.brycedev.sleeksheets</string>
 			<key>key</key><string>enabled</string>
 			<key>label</key><string>Enabled</string>
-			<key>PostNotification</key><string>com.brycedev.sleeksheets/ReloadPrefs</string>
+			<key>PostNotification</key><string>com.brycedev.sleeksheets.prefschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key><string>PSGroupCell</string>
